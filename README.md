@@ -4,6 +4,8 @@ A set of scripts for setting up a remote pairing server from scratch
 ## Installation
 Run the commands
 ```sh
-sh install-vim.sh
+bash install-libevent.sh
+bash install-ncurses.sh
+bash install-vim.sh
 source setup-bashrc.sh
 ```
