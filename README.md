@@ -9,6 +9,7 @@ bash install-libevent.sh
 bash install-ncurses.sh
 bash install-tmux.sh
 bash install-vim.sh
+bash install-ack.sh
 source setup-bashrc.sh
 ```
 
