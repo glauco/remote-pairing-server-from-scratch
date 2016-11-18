@@ -6,6 +6,7 @@ Run the commands
 ```sh
 bash install-libevent.sh
 bash install-ncurses.sh
+bash install-tmux.sh
 bash install-vim.sh
 source setup-bashrc.sh
 ```
