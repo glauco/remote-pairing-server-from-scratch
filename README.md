@@ -1,8 +1,9 @@
-# remote-pairing-server-from-scratch
+# Building a remote pairing server from scratch
 A set of scripts for setting up a remote pairing server from scratch
 
 ## Installation
-Run the commands
+Run the following commands:
+
 ```sh
 bash install-libevent.sh
 bash install-ncurses.sh
