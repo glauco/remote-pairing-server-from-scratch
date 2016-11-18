@@ -11,3 +11,14 @@ bash install-tmux.sh
 bash install-vim.sh
 source setup-bashrc.sh
 ```
+
+## Tmux
+To share a session with someone you have to be connected to the same host. Then you can create a new session executing
+```
+SESSION=<session-name> bash tmux-create-session.sh
+GROUP=<group> bash tmux-allow-guests.sh
+```
+To join a session execute
+```
+SESSION=<session-name> bash tmux-join-session.sh
+```
