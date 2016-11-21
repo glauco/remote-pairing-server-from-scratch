@@ -1,3 +1,3 @@
 #!/bin/bash
 
-tmux -S /tmp/$SESSION new -s $SESSION
+tmux -S "/tmp/$SESSION" new -s "$SESSION"

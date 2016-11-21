@@ -1,3 +1,3 @@
 #!/bin/bash
 
-chgrp $GROUP /tmp/$SESSION
+chgrp "$GROUP" "/tmp/$SESSION"
