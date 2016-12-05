@@ -17,7 +17,7 @@ source setup-bashrc.sh
 To share a session with someone you have to be connected to the same host. Then you can create a new session executing
 ```
 SESSION=<session-name> bash tmux-create-session.sh
-GROUP=<group> bash tmux-allow-guests.sh
+GROUP=<group> SESSION=<session-name> bash tmux-allow-guests.sh
 ```
 To join a session execute
 ```
