@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir -p ~/usr/local
+mkdir -p "$HOME/usr/local"
 wget --no-check-certificate https://github.com/tmux/tmux/releases/download/2.3/tmux-2.3.tar.gz -O tmux.tar.gz
 tar -xvzf tmux.tar.gz
 pushd tmux-2.3
