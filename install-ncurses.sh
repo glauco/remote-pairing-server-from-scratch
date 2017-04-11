@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir -p ~/usr/local
+mkdir -p "$HOME/usr/local"
 wget --no-check-certificate http://ftp.gnu.org/gnu/ncurses/ncurses-6.0.tar.gz -O ncurses.tar.gz
 tar -xvzf ncurses.tar.gz
 pushd ncurses-6.0
