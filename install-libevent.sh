@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir -p ~/usr/local
+mkdir -p "$HOME/usr/local"
 wget --no-check-certificate https://github.com/libevent/libevent/releases/download/release-2.1.8-stable/libevent-2.1.8-stable.tar.gz -O libevent.tar.gz
 tar -xvzf libevent.tar.gz
 pushd libevent-2.1.8-stable
