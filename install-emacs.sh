@@ -10,3 +10,11 @@ make install
 popd
 rm emacs.tar.gz
 rm -rf emacs-25.1
+
+curl --insecure -L https://github.com/syl20bnr/spacemacs/archive/master.zip > spacemacs.zip
+unzip spacemacs.zip
+
+rm -fr "$HOME/.emacs"
+rm -fr "$HOME/.emacs.d"
+
+mv spacemacs-master "$HOME/.emacs.d"
