@@ -12,6 +12,9 @@ bash install-ncurses.sh
 echo 'Installing tmux…'
 bash install-tmux.sh
 
+echo 'Installing emacs…'
+bash install-emacs.sh
+
 echo 'Installing vim…'
 bash install-vim.sh
 
