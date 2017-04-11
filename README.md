@@ -4,13 +4,8 @@ A set of scripts for setting up a remote pairing server from scratch
 ## Installation
 Run the following commands:
 
-```sh
-bash install-libevent.sh
-bash install-ncurses.sh
-bash install-tmux.sh
-bash install-vim.sh
-bash install-ack.sh
-source setup-bashrc.sh
+```bash
+bash setup.sh
 ```
 
 ## Tmux
