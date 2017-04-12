@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo 'export LANGUAGE="en_US.UTF-8"' >> "$HOME/.bashrc"
+echo 'export LANG="en_US.UTF-8"' >> "$HOME/.bashrc"
 echo 'export PATH=$HOME/usr/local/bin:$PATH' >> "$HOME/.bashrc"
 source "$HOME/.bashrc"
 
